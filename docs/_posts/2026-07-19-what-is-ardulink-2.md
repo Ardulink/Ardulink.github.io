@@ -50,7 +50,7 @@ This means your application only pulls in the code it actually uses.
 | Transports | Hardcoded serial | Pluggable link adapters |
 | Distribution | Custom download | Maven Central |
 | MQTT | Not supported | Full support via `ardulink-mqtt` |
-| REST | Not supported | Built-in with Swagger UI |
+| REST | Not supported | Full support via `ardulink-rest` including Swagger UI |
 | Camel | Not supported | Apache Camel integration |
 | Protocol | Custom | Custom + Firmata (preview) |
 | Java version | Java 6+ | Java 8+ (2.2.0), Java 11+ (future) |
