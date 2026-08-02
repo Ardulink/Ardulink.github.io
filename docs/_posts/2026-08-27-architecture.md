@@ -4,6 +4,7 @@ title: "Advanced: Understanding the Ardulink-2 Module Architecture"
 parent: Documentation
 nav_order: 17
 permalink: /documentation/architecture/
+description: Module system, internals, custom links
 ---
 
 # Advanced: Understanding the Ardulink-2 Module Architecture

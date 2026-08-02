@@ -4,6 +4,7 @@ title: Setting Up the Arduino Firmware
 parent: Documentation
 nav_order: 4
 permalink: /documentation/arduino-firmware/
+description: Flashing firmware via WebSerial or Arduino IDE
 ---
 
 # Setting Up the Arduino Firmware

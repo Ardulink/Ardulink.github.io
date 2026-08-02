@@ -4,6 +4,7 @@ title: Serial Connections
 parent: Documentation
 nav_order: 6
 permalink: /documentation/serial-connections/
+description: USB serial with JSSC, NRSerialRxTx, or Rxtx
 ---
 
 # Serial Connections with Ardulink-2

@@ -4,6 +4,7 @@ title: Building GUI Applications with Ardulink-Swing
 parent: Documentation
 nav_order: 14
 permalink: /documentation/ardulink-swing/
+description: Building desktop control applications
 ---
 
 # Building GUI Applications with Ardulink-Swing

@@ -4,6 +4,7 @@ title: Understanding Link Types
 parent: Documentation
 nav_order: 5
 permalink: /documentation/link-types/
+description: The Link interface and module system
 ---
 
 # Understanding Link Types

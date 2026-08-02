@@ -4,6 +4,7 @@ title: Bluetooth and Wireless Connections
 parent: Documentation
 nav_order: 7
 permalink: /documentation/bluetooth-wireless/
+description: Bluetooth, NodeMCU, and MQTT connections
 ---
 
 # Bluetooth and Wireless Connections

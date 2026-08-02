@@ -4,6 +4,7 @@ title: Reading Digital and Analog Pins
 parent: Documentation
 nav_order: 8
 permalink: /documentation/reading-pins/
+description: Digital and analog pin event listeners
 ---
 
 # Reading Digital and Analog Pins

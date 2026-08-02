@@ -4,6 +4,7 @@ title: What is Ardulink-2?
 parent: Documentation
 nav_order: 1
 permalink: /documentation/what-is-ardulink-2/
+description: Project overview and architecture
 ---
 
 # What is Ardulink-2?

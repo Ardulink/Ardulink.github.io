@@ -4,6 +4,7 @@ title: "Controlling Arduino via REST API"
 parent: Documentation
 nav_order: 12
 permalink: /documentation/ardulink-rest/
+description: HTTP/JSON control with Swagger UI
 ---
 
 # Controlling Arduino via REST API

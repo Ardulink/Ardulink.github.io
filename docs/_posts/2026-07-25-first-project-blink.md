@@ -4,6 +4,7 @@ title: "First Project: Blink an LED from Java"
 parent: Documentation
 nav_order: 3
 permalink: /documentation/first-project/
+description: Step-by-step tutorial from scratch
 ---
 
 # First Project: Blink an LED from Java

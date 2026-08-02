@@ -4,6 +4,7 @@ title: Getting Started with Ardulink-2
 parent: Documentation
 nav_order: 2
 permalink: /documentation/getting-started/
+description: Prerequisites, dependencies, first connection
 ---
 
 # Getting Started with Ardulink-2

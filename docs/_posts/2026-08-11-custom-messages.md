@@ -4,6 +4,7 @@ title: Custom Messages Between Java and Arduino
 parent: Documentation
 nav_order: 10
 permalink: /documentation/custom-messages/
+description: Arbitrary string communication protocols
 ---
 
 # Custom Messages Between Java and Arduino

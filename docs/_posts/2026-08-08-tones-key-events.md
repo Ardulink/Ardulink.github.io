@@ -4,6 +4,7 @@ title: Sending Tones and Key Events
 parent: Documentation
 nav_order: 9
 permalink: /documentation/tones-key-events/
+description: Playing sounds and simulating keyboard input
 ---
 
 # Sending Tones and Key Events

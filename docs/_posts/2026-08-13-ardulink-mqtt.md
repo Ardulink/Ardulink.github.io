@@ -4,6 +4,7 @@ title: "Ardulink-MQTT: IoT Ready Arduino Communication"
 parent: Documentation
 nav_order: 11
 permalink: /documentation/ardulink-mqtt/
+description: IoT-ready MQTT integration
 ---
 
 # Ardulink-MQTT: IoT Ready Arduino Communication

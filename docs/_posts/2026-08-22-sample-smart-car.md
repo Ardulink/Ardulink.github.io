@@ -4,6 +4,7 @@ title: "Sample: Simple Smart Car Driver"
 parent: Documentation
 nav_order: 15
 permalink: /documentation/sample-smart-car/
+description: Walkthrough of the car driver sample
 ---
 
 # Sample: Simple Smart Car Driver

@@ -4,6 +4,7 @@ title: "Sample: Arduino with Node-RED Dashboard"
 parent: Documentation
 nav_order: 16
 permalink: /documentation/sample-node-red/
+description: Arduino + Node-RED + MQTT dashboard
 ---
 
 # Sample: Arduino with Node-RED Dashboard

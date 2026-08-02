@@ -4,6 +4,7 @@ title: Apache Camel Integration with Ardulink
 parent: Documentation
 nav_order: 13
 permalink: /documentation/ardulink-camel/
+description: Enterprise messaging patterns
 ---
 
 # Apache Camel Integration with Ardulink
