@@ -3,9 +3,10 @@ description: A complete, open source, Java solution for the control and coordina
 url: "http://ardulink.org"
 baseurl: ""
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
 
@@ -39,5 +40,7 @@ search:
   preview_words_after: 10
 
 exclude:
+  - Gemfile
   - Gemfile.lock
+  - node_modules/
   - vendor/
