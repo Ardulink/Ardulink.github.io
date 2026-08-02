@@ -1,6 +1,6 @@
 title: Ardulink-2
 description: A complete, open source, Java solution for the control and coordination of Arduino boards
-url: "https://ardulink.github.io"
+url: "http://ardulink.org"
 baseurl: ""
 
 remote_theme: just-the-docs/just-the-docs
