@@ -113,7 +113,7 @@ By default, topics follow this pattern:
 
 ## Integration with Node-RED
 
-Ardulink-MQTT works seamlessly with [Node-RED](https://nodered.org/). See the [Node-RED Sample]({{ '/documentation/sample-node-red/' | relative_url }}) for a complete walkthrough including Docker Compose setup.
+Ardulink-MQTT works seamlessly with [Node-RED](https://nodered.org/). See the [Node-RED Sample]({{ '/documentation/sample-node-red/' | relative_url }}}) for a complete walkthrough including Docker Compose setup.
 
 ## Integration with Home Automation
 
@@ -127,6 +127,6 @@ Since MQTT is a standard IoT protocol, Ardulink-MQTT integrates with:
 
 ## Next Steps
 
-- [Sample: Node-RED Dashboard]({{ '/documentation/sample-node-red/' | relative_url }) — Complete Node-RED example
-- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }) — HTTP alternative
-- [Bluetooth and Wireless]({{ '/documentation/bluetooth-wireless/' | relative_url }) — Other wireless options
+- [Sample: Node-RED Dashboard]({{ '/documentation/sample-node-red/' | relative_url }}) — Complete Node-RED example
+- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }}) — HTTP alternative
+- [Bluetooth and Wireless]({{ '/documentation/bluetooth-wireless/' | relative_url }}) — Other wireless options

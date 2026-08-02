@@ -107,6 +107,6 @@ link2.switchDigitalPin(Pin.digitalPin(13), false);
 
 ## Next Steps
 
-- [Serial Connections]({{ '/documentation/serial-connections/' | relative_url }) — Deep dive into serial options
-- [Bluetooth and Wireless]({{ '/documentation/bluetooth-wireless/' | relative_url }) — Wireless setups
-- [Ardulink-2 Architecture]({{ '/documentation/architecture/' | relative_url }) — Internal module system
+- [Serial Connections]({{ '/documentation/serial-connections/' | relative_url }}) — Deep dive into serial options
+- [Bluetooth and Wireless]({{ '/documentation/bluetooth-wireless/' | relative_url }}) — Wireless setups
+- [Ardulink-2 Architecture]({{ '/documentation/architecture/' | relative_url }}) — Internal module system

@@ -65,6 +65,6 @@ This means your application only pulls in the code it actually uses.
 
 ## Next Steps
 
-- [Getting Started]({{ '/documentation/getting-started/' | relative_url }}) — Set up your first connection
-- [Arduino Firmware]({{ '/documentation/arduino-firmware/' | relative_url }}) — Flash the firmware to your board
-- [Understanding Link Types]({{ '/documentation/link-types/' | relative_url }}) — Explore available transports
+- [Getting Started]({{ '/documentation/getting-started/' | relative_url }}}) — Set up your first connection
+- [Arduino Firmware]({{ '/documentation/arduino-firmware/' | relative_url }}}) — Flash the firmware to your board
+- [Understanding Link Types]({{ '/documentation/link-types/' | relative_url }}}) — Explore available transports

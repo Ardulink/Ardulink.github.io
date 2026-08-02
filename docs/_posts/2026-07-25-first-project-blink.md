@@ -63,7 +63,7 @@ Create `pom.xml`:
 
 Open the [WebSerial Flasher](https://ardulink.github.io/Firmware/webflasher.html) in your browser, connect your Arduino, and click **Program**. This uploads the Ardulink protocol firmware that lets Java communicate with the board.
 
-See [Arduino Firmware Setup]({{ '/documentation/arduino-firmware/' | relative_url }}) for more details.
+See [Arduino Firmware Setup]({{ '/documentation/arduino-firmware/' | relative_url }}}) for more details.
 
 ## 3. Write the Java Code
 
@@ -176,6 +176,6 @@ public class BlinkWithButton {
 
 ## Next Steps
 
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Deep dive into pin event listeners
-- [Link Types]({{ '/documentation/link-types/' | relative_url }}) — Connect via Bluetooth, MQTT, etc.
-- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) — Send arbitrary data between Java and Arduino
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}}) — Deep dive into pin event listeners
+- [Link Types]({{ '/documentation/link-types/' | relative_url }}}) — Connect via Bluetooth, MQTT, etc.
+- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}}) — Send arbitrary data between Java and Arduino

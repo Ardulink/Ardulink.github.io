@@ -158,6 +158,6 @@ try (Link link = Links.getLink("ardulink://raspberry")) {
 
 ## Next Steps
 
-- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }) — Deep dive into MQTT integration
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }) — Event listeners
-- [Sample: Node-RED Dashboard]({{ '/documentation/sample-node-red/' | relative_url }) — Dashboard with Node-RED
+- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }}) — Deep dive into MQTT integration
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Event listeners
+- [Sample: Node-RED Dashboard]({{ '/documentation/sample-node-red/' | relative_url }}) — Dashboard with Node-RED

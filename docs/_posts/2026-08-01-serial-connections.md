@@ -127,6 +127,6 @@ ardulink://serial?port=/dev/ttyACM0&baudrate=9600
 
 ## Next Steps
 
-- [Bluetooth and Wireless]({{ '/documentation/bluetooth-wireless/' | relative_url }) — Go wireless
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }) — Listen for events
-- [Link Types Overview]({{ '/documentation/link-types/' | relative_url }) — All transport options
+- [Bluetooth and Wireless]({{ '/documentation/bluetooth-wireless/' | relative_url }}) — Go wireless
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Listen for events
+- [Link Types Overview]({{ '/documentation/link-types/' | relative_url }}) — All transport options

@@ -116,10 +116,10 @@ When pressed, it sends the configured value to the Arduino pin mapped to its ID.
 
 ## Sample: See the Full Application
 
-The [Smart Car Driver sample]({{ '/documentation/sample-smart-car/' | relative_url }}) demonstrates a complete GUI application using these components.
+The [Smart Car Driver sample]({{ '/documentation/sample-smart-car/' | relative_url }}}) demonstrates a complete GUI application using these components.
 
 ## Next Steps
 
-- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }) — Full GUI walkthrough
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }) — Event-driven input
-- [Link Types]({{ '/documentation/link-types/' | relative_url }) — Connection options
+- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }}) — Full GUI walkthrough
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Event-driven input
+- [Link Types]({{ '/documentation/link-types/' | relative_url }}) — Connection options

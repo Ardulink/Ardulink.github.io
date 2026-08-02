@@ -126,6 +126,6 @@ The current firmware release is **v1.2.0** (February 2025).
 
 ## Next Steps
 
-- [Getting Started]({{ '/documentation/getting-started/' | relative_url }}) — Set up the Java side
-- [Link Types]({{ '/documentation/link-types/' | relative_url }}) — All available transports
-- [Ardulink-2 Architecture]({{ '/documentation/architecture/' | relative_url }}) — How the protocol works
+- [Getting Started]({{ '/documentation/getting-started/' | relative_url }}}) — Set up the Java side
+- [Link Types]({{ '/documentation/link-types/' | relative_url }}}) — All available transports
+- [Ardulink-2 Architecture]({{ '/documentation/architecture/' | relative_url }}}) — How the protocol works

@@ -112,6 +112,6 @@ For programmatic REST server setup:
 
 ## Next Steps
 
-- [Apache Camel Integration]({{ '/documentation/ardulink-camel/' | relative_url }) — Enterprise messaging
-- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }) — IoT broker alternative
-- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }) — Build your own protocols
+- [Apache Camel Integration]({{ '/documentation/ardulink-camel/' | relative_url }}) — Enterprise messaging
+- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }}) — IoT broker alternative
+- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) — Build your own protocols

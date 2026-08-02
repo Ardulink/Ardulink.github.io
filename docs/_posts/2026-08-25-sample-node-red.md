@@ -117,6 +117,6 @@ java -jar ardulink-mqtt-2.2.0.jar \
 
 ## Next Steps
 
-- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }) — MQTT details
-- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }) — HTTP alternative
-- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }) — Desktop GUI alternative
+- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }}) — MQTT details
+- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }}) — HTTP alternative
+- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }}) — Desktop GUI alternative

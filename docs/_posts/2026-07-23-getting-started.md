@@ -37,7 +37,7 @@ Add the core library and at least one link adapter to your `pom.xml`:
 ```
 
 {: .note }
-`ardulink-core-base` is always required. The link adapter (`ardulink-link-serial-jssc` here) depends on your connection method. See [Serial Connections]({{ '/documentation/serial-connections/' | relative_url }}) for alternatives.
+`ardulink-core-base` is always required. The link adapter (`ardulink-link-serial-jssc` here) depends on your connection method. See [Serial Connections]({{ '/documentation/serial-connections/' | relative_url }}}) for alternatives.
 
 For Gradle:
 
@@ -57,7 +57,7 @@ Your Arduino needs the [Ardulink firmware](https://github.com/Ardulink/Firmware)
 3. Click **Program** and select your Arduino's serial port
 4. Wait for the upload to complete
 
-See [Arduino Firmware Setup]({{ '/documentation/arduino-firmware/' | relative_url }}) for alternative methods.
+See [Arduino Firmware Setup]({{ '/documentation/arduino-firmware/' | relative_url }}}) for alternative methods.
 
 ## Step 3: Write Your First Java Program
 
@@ -125,6 +125,6 @@ pin switched on
 
 ## Next Steps
 
-- [First Project: Blink an LED]({{ '/documentation/first-project/' | relative_url }}) — Detailed walkthrough
-- [Link Types]({{ '/documentation/link-types/' | relative_url }}) — Explore all transport options
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Listen for pin changes
+- [First Project: Blink an LED]({{ '/documentation/first-project/' | relative_url }}}) — Detailed walkthrough
+- [Link Types]({{ '/documentation/link-types/' | relative_url }}}) — Explore all transport options
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}}) — Listen for pin changes

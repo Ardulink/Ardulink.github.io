@@ -125,10 +125,10 @@ public class ButtonLED {
 
 ## Reading Current Pin State
 
-To read the current value of a pin without waiting for changes, you can send a custom message request. See [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) for the protocol details.
+To read the current value of a pin without waiting for changes, you can send a custom message request. See [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}}) for the protocol details.
 
 ## Next Steps
 
-- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }) — Send arbitrary data
-- [Tones and Key Events]({{ '/documentation/tones-key-events/' | relative_url }) — Sound and keyboard simulation
-- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }) — GUI control example
+- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) — Send arbitrary data
+- [Tones and Key Events]({{ '/documentation/tones-key-events/' | relative_url }}) — Sound and keyboard simulation
+- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }}) — GUI control example

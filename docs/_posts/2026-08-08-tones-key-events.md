@@ -123,6 +123,6 @@ public class KeyEventExample {
 
 ## Next Steps
 
-- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }) — Arbitrary data exchange
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }) — Input event handling
-- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }) — Full GUI example
+- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) — Arbitrary data exchange
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Input event handling
+- [Sample: Smart Car Driver]({{ '/documentation/sample-smart-car/' | relative_url }}) — Full GUI example

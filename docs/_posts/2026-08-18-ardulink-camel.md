@@ -117,6 +117,6 @@ from("paho:commands/digital/13?brokerUrl=tcp://localhost:1883")
 
 ## Next Steps
 
-- [Swing GUI]({{ '/documentation/ardulink-swing/' | relative_url }) — Desktop applications
-- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }) — Simpler HTTP alternative
-- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }) — IoT alternative
+- [Swing GUI]({{ '/documentation/ardulink-swing/' | relative_url }}) — Desktop applications
+- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }}) — Simpler HTTP alternative
+- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }}) — IoT alternative

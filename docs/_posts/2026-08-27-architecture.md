@@ -156,7 +156,7 @@ Version 2.2.0 introduces experimental [Firmata protocol](https://github.com/firm
 System.setProperty("protocol.firmata.enabled", "true");
 ```
 
-See [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }}) for details.
+See [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }}}) for details.
 
 ## Future Direction
 
@@ -167,6 +167,6 @@ The 2.2.0 release notes indicate:
 
 ## Next Steps
 
-- [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }) — Experimental Firmata
-- [Link Types]({{ '/documentation/link-types/' | relative_url }) — All available transports
-- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }) — Protocol details
+- [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }}) — Experimental Firmata
+- [Link Types]({{ '/documentation/link-types/' | relative_url }}) — All available transports
+- [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) — Protocol details

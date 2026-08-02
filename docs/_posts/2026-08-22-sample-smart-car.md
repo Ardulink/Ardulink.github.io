@@ -118,6 +118,6 @@ The `strength` slider on each button allows adjusting the speed in real-time.
 
 ## Next Steps
 
-- [Swing GUI Components]({{ '/documentation/ardulink-swing/' | relative_url }) — All available GUI components
-- [Sample: Node-RED Dashboard]({{ '/documentation/sample-node-red/' | relative_url }) — Web-based alternative
-- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }) — Add sensor feedback
+- [Swing GUI Components]({{ '/documentation/ardulink-swing/' | relative_url }}) — All available GUI components
+- [Sample: Node-RED Dashboard]({{ '/documentation/sample-node-red/' | relative_url }}) — Web-based alternative
+- [Reading Pins]({{ '/documentation/reading-pins/' | relative_url }}) — Add sensor feedback

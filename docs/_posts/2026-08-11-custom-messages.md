@@ -116,6 +116,6 @@ See the [Ardulink2 Specification](https://github.com/Ardulink/Firmware/blob/main
 
 ## Next Steps
 
-- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }) — IoT broker integration
-- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }) — HTTP/JSON control
-- [Ardulink-2 Architecture]({{ '/documentation/architecture/' | relative_url }) — Protocol internals
+- [Ardulink-MQTT]({{ '/documentation/ardulink-mqtt/' | relative_url }}) — IoT broker integration
+- [REST API]({{ '/documentation/ardulink-rest/' | relative_url }}) — HTTP/JSON control
+- [Ardulink-2 Architecture]({{ '/documentation/architecture/' | relative_url }}) — Protocol internals
