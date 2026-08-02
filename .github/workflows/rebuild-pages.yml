@@ -1,0 +1,28 @@
+name: Rebuild GitHub Pages
+
+on:
+  schedule:
+    - cron: '0 3 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          persist-credentials: false
+
+      - name: Trigger Pages rebuild
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "chore: rebuild GitHub Pages (weekly cron)"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/Ardulink/Ardulink.github.io.git gh-pages
