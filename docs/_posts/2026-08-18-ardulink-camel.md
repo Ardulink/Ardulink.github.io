@@ -45,14 +45,14 @@ public class ArdulinkCamelExample {
         context.addRoutes(new RouteBuilder() {
             @Override
             public void configure() throws Exception {
-                // When Arduino sends data on pin 2, log it
-                from("ardulink:digital?link=serial&port=/dev/ttyACM0&pin=2")
-                    .log("Pin 2 changed: ${body}");
+                // When Arduino sends data, log the ALP protocol message
+                from("ardulink:serial?port=/dev/ttyACM0")
+                    .log("Received: ${body}");
 
-                // Set pin 13 HIGH every 5 seconds
+                // Set pin 13 HIGH every 5 seconds using ALP protocol
                 from("timer:blink?period=5000")
-                    .setBody(constant(true))
-                    .to("ardulink:digital?link=serial&port=/dev/ttyACM0&pin=13");
+                    .setBody(constant("alp://ppp/D13/1"))
+                    .to("ardulink:serial?port=/dev/ttyACM0");
             }
         });
 
@@ -70,7 +70,7 @@ public class ArdulinkCamelExample {
 Forward Arduino sensor data to a JMS/ActiveMQ queue:
 
 ```java
-from("ardulink:analog?link=serial&port=/dev/ttyACM0&pin=0")
+from("ardulink:serial?port=/dev/ttyACM0")
     .convertBodyTo(String.class)
     .to("activemq:queue:sensor.readings");
 ```
@@ -80,7 +80,7 @@ from("ardulink:analog?link=serial&port=/dev/ttyACM0&pin=0")
 Forward Arduino events to an HTTP endpoint:
 
 ```java
-from("ardulink:digital?link=serial&port=/dev/ttyACM0&pin=2")
+from("ardulink:serial?port=/dev/ttyACM0")
     .setHeader(Exchange.HTTP_METHOD, constant("POST"))
     .setHeader(Exchange.CONTENT_TYPE, constant("application/json"))
     .to("http://myserver.com/api/arduino/event");
@@ -88,23 +88,23 @@ from("ardulink:digital?link=serial&port=/dev/ttyACM0&pin=2")
 
 ### Filter and Transform
 
-Process only specific pin values:
+Process specific ALP messages or values:
 
 ```java
-from("ardulink:analog?link=serial&port=/dev/ttyACM0&pin=0")
-    .filter(body().isGreaterThan(500))
-    .log("High reading: ${body}")
+from("ardulink:serial?port=/dev/ttyACM0")
+    .filter(body().contains("A0"))
+    .log("Analog reading message: ${body}")
     .to("mailto:alerts@example.com?subject=Sensor+Alert");
 ```
 
 ### MQTT Bridge via Camel
 
 ```java
-from("ardulink:digital?link=serial&port=/dev/ttyACM0&pin=13")
-    .to("paho:arduino/digital/13?brokerUrl=tcp://localhost:1883");
+from("ardulink:serial?port=/dev/ttyACM0")
+    .to("paho:arduino/messages?brokerUrl=tcp://localhost:1883");
 
-from("paho:commands/digital/13?brokerUrl=tcp://localhost:1883")
-    .to("ardulink:digital?link=serial&port=/dev/ttyACM0&pin=13");
+from("paho:commands?brokerUrl=tcp://localhost:1883")
+    .to("ardulink:serial?port=/dev/ttyACM0");
 ```
 
 ## Use Cases
