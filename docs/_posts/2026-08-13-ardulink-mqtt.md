@@ -21,14 +21,14 @@ The `ardulink-mqtt` module bridges Ardulink-2 with MQTT brokers, enabling IoT-st
 
 ```
 ┌──────────┐  Serial   ┌──────────────┐  MQTT  ┌─────────────┐
-│  Arduino  │ <───────> │ ardulink-mqtt│ <────> │ MQTT Broker │
-│  (FW)     │           │ (bridge)     │        │ (Mosquitto) │
+│  Arduino │ <───────> │ ardulink-mqtt│ <────> │ MQTT Broker │
+│  (FW)    │           │ (bridge)     │        │ (Mosquitto) │
 └──────────┘           └──────────────┘        └─────────────┘
-                                                        │
-                                               ┌────────┴────────┐
-                                               │  Java / Node-RED │
-                                               │  / Any MQTT app  │
-                                               └─────────────────┘
+                                                      │
+                                             ┌────────┴─────────┐
+                                             │  Java / Node-RED │
+                                             │  / Any MQTT app  │
+                                             └──────────────────┘
 ```
 
 ## Quick Start

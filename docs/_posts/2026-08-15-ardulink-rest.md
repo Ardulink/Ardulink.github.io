@@ -21,8 +21,8 @@ The `ardulink-rest` module exposes your Arduino as a REST API, letting you contr
 
 ```
 ┌──────────┐  Serial   ┌──────────────┐  REST/HTTP  ┌──────────────┐
-│  Arduino  │ <───────> │ ardulink-rest│ <─────────> │   Browser /  │
-│  (FW)     │           │ (server)     │             │   curl / API │
+│  Arduino │ <───────> │ ardulink-rest│ <─────────> │   Browser /  │
+│  (FW)    │           │ (server)     │             │   curl / API │
 └──────────┘           └──────────────┘             └──────────────┘
 ```
 

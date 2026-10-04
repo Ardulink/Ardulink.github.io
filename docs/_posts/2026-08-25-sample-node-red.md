@@ -14,10 +14,10 @@ This walkthrough covers the Node-RED integration sample from [Ardulink-2-Samples
 ## Architecture
 
 ```
-┌──────────┐  Serial  ┌──────────────┐  MQTT  ┌───────────┐  HTTP  ┌──────────┐
-│  Arduino  │ <─────> │ ardulink-mqtt│ <────> │ Mosquitto │ <────> │ Node-RED │
-│  (FW)     │          │ (bridge)     │        │ (broker)  │        │ (UI)     │
-└──────────┘          └──────────────┘        └───────────┘        └──────────┘
+┌──────────┐  Serial ┌──────────────┐  MQTT  ┌───────────┐  HTTP  ┌──────────┐
+│  Arduino │ <─────> │ ardulink-mqtt│ <────> │ Mosquitto │ <────> │ Node-RED │
+│  (FW)    │         │ (bridge)     │        │ (broker)  │        │ (UI)     │
+└──────────┘         └──────────────┘        └───────────┘        └──────────┘
 ```
 
 - **Arduino** — Runs the Ardulink firmware
