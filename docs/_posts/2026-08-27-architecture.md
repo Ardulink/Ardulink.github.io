@@ -150,23 +150,18 @@ public class MyCustomLink extends ConnectionBasedLink {
 
 ## Firmata Protocol Support
 
-Version 2.2.0 introduces experimental [Firmata protocol](https://github.com/firmata/protocol) support via `ardulink-core-firmata-proto`. Enable it by setting a system property:
-
-```java
-System.setProperty("protocol.firmata.enabled", "true");
-```
-
+Version 2.2.0 introduces experimental [Firmata protocol](https://github.com/firmata/protocol) 
 See [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }}}) for details.
+Version 2.3.0 added much more Firmata protocol support
 
 ## Future Direction
 
-The 2.2.0 release notes indicate:
-- **Next version will require Java 11** (2.2.0 is the last Java 8 release)
+The 2.4.0 release notes indicate:
+- **Next version will require Java 17** (dependencies like Apache Camel otherwise gets outdated)
 - Network proxy server may be removed (MQTT covers the same use case)
-- Firmata protocol support will be expanded
 
 ## Next Steps
 
-- [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }}) — Experimental Firmata
+- [Firmata Protocol Support]({{ '/documentation/firmata/' | relative_url }}) — Firmata
 - [Link Types]({{ '/documentation/link-types/' | relative_url }}) — All available transports
 - [Custom Messages]({{ '/documentation/custom-messages/' | relative_url }}) — Protocol details

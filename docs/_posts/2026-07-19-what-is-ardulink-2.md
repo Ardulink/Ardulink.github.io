@@ -28,9 +28,9 @@ They communicate over a transport layer (Serial, Bluetooth, MQTT, etc.) using th
 
 ```
 ┌──────────────────┐         Serial/USB         ┌──────────────────┐
-│  Java Application│ ──────────────────────────> │   Arduino Board  │
-│  (Ardulink-2)    │ <────────────────────────── │  (Ardulink FW)   │
-└──────────────────┘    pin events, responses    └──────────────────┘
+│  Java Application│ ─────────────────────────> │   Arduino Board  │
+│  (Ardulink-2)    │ <───────────────────────── │  (Ardulink FW)   │
+└──────────────────┘    pin events, responses   └──────────────────┘
 ```
 
 ## Modular Architecture
@@ -54,7 +54,7 @@ This means your application only pulls in the code it actually uses.
 | REST | Not supported | Full support via `ardulink-rest` including Swagger UI |
 | Camel | Not supported | Apache Camel integration |
 | Protocol | Custom | Custom + Firmata (preview) |
-| Java version | Java 6+ | Java 8+ (2.2.0), Java 11+ (future) |
+| Java version | Java 6+ | Java 8+ (2.2.0), Java 11+ (2.3.0) |
 
 ## Who Is It For?
 

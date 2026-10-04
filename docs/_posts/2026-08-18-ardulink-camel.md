@@ -27,7 +27,7 @@ The `ardulink-camel` module integrates Ardulink-2 with [Apache Camel](https://ca
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-camel</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 

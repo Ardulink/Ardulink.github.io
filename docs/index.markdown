@@ -56,12 +56,12 @@ public static void main(String... args) throws Exception {
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-core-base</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-serial-jssc</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
@@ -81,11 +81,9 @@ try (Link link = Links.getDefault()) {
 
 ## Latest Release
 
-**Version 2.2.0** (November 17, 2024) — [Release Notes](https://github.com/Ardulink/Ardulink-2/releases/tag/2.2.0)
+**Version 2.3.0** (Octobre 3, 2026) — [Release Notes](https://github.com/Ardulink/Ardulink-2/releases/tag/v2.3.0)
 
-- Firmata protocol support (preview)
-- REST API with Swagger UI
-- Migrated to Java 8 minimum
-- Moved samples to [Ardulink-2-Samples](https://github.com/Ardulink/Ardulink-2-Samples)
+- Migrated to Java 11 minimum
+- Firmata protocol support
 
 [View all releases](https://github.com/Ardulink/Ardulink-2/releases)

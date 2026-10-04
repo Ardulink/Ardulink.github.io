@@ -27,12 +27,12 @@ Add the core library and at least one link adapter to your `pom.xml`:
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-core-base</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-serial-jssc</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
@@ -42,8 +42,8 @@ Add the core library and at least one link adapter to your `pom.xml`:
 For Gradle:
 
 ```groovy
-implementation 'org.ardulink:ardulink-core-base:2.2.0'
-implementation 'org.ardulink:ardulink-link-serial-jssc:2.2.0'
+implementation 'org.ardulink:ardulink-core-base:2.3.0'
+implementation 'org.ardulink:ardulink-link-serial-jssc:2.3.0'
 ```
 
 ## Step 2: Flash the Arduino Firmware

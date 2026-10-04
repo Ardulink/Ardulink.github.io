@@ -17,7 +17,8 @@ The original Ardulink project provided a Java-to-Arduino communication framework
 
 | Version | Name | Date | Highlights |
 |:--------|:-----|:-----|:-----------|
-| **2.2.0** | *(current)* | November 2024 | Firmata support, REST API with Swagger UI, Java 8 minimum |
+| **2.3.0** | *(current)* | Octobre 2026 | Full Firmata support, Java 11 minimum |
+| **2.2.0** | - | November 2024 | Firmata support, REST API with Swagger UI, Java 8 minimum |
 | **2.1.1** | Gordio SP1 | May 2016 | Bug fixes |
 | **2.1.0** | Gordio | January 2016 | Camel reorganization, MQTT separatedTopics, NodeMCU support |
 | **2.0.1** | Phoenix SP1 | November 2015 | Bug fixes, additional example |

@@ -36,7 +36,7 @@ The `ardulink-mqtt` module bridges Ardulink-2 with MQTT brokers, enabling IoT-st
 ### 1. Start the Bridge
 
 ```bash
-java -jar ardulink-mqtt-2.2.0.jar \
+java -jar ardulink-mqtt-2.3.0.jar \
     -connection "ardulink://serial?port=/dev/ttyACM0" \
     -broker "tcp://localhost:1883"
 ```
@@ -44,7 +44,7 @@ java -jar ardulink-mqtt-2.2.0.jar \
 For testing without hardware:
 
 ```bash
-java -jar ardulink-mqtt-2.2.0.jar \
+java -jar ardulink-mqtt-2.3.0.jar \
     -connection "ardulink://virtual-console" \
     -broker "tcp://localhost:1883"
 ```
@@ -79,7 +79,7 @@ For programmatic MQTT link usage (not the standalone bridge):
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-mqtt</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 

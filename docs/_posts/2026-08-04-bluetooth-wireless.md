@@ -28,7 +28,7 @@ Ardulink-2 supports wireless Arduino communication through Bluetooth, MQTT, and 
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-bluetooth</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
@@ -61,7 +61,7 @@ MQTT is ideal for IoT deployments where Arduino and Java run on different machin
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-mqtt</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
@@ -71,7 +71,7 @@ The `ardulink-mqtt` module provides a standalone JAR that bridges an Arduino con
 
 ```bash
 # Download from Maven Central or use the standalone jar
-java -jar ardulink-mqtt-2.2.0.jar \
+java -jar ardulink-mqtt-2.3.0.jar \
     -connection "ardulink://serial?port=/dev/ttyACM0" \
     -broker "tcp://localhost:1883"
 ```
@@ -104,7 +104,7 @@ Ardulink-2 has dedicated support for NodeMCU boards, which can connect via seria
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-nodemcu</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
@@ -135,7 +135,7 @@ The Raspberry Pi link adapter controls GPIO pins directly on the Pi (no Arduino 
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-raspberry</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
