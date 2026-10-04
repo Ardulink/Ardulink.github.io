@@ -45,8 +45,8 @@ public class ArdulinkCamelExample {
         context.addRoutes(new RouteBuilder() {
             @Override
             public void configure() throws Exception {
-                // When Arduino sends data, log the ALP protocol message
-                from("ardulink:serial?port=/dev/ttyACM0")
+                // Listen on digital pins D8-D12 and log the ALP protocol message on state changes
+                from("ardulink:serial?port=/dev/ttyACM0&listen=D8,D9,D10,D11,D12")
                     .log("Received: ${body}");
 
                 // Blink pin 13: HIGH then LOW every 500ms using ALP protocol
