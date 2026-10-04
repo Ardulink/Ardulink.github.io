@@ -49,15 +49,18 @@ public class ArdulinkCamelExample {
                 from("ardulink:serial?port=/dev/ttyACM0")
                     .log("Received: ${body}");
 
-                // Set pin 13 HIGH every 5 seconds using ALP protocol
-                from("timer:blink?period=5000")
+                // Blink pin 13: HIGH then LOW every 500ms using ALP protocol
+                from("timer:blink?period=500")
                     .setBody(constant("alp://ppp/D13/1"))
+                    .to("ardulink:serial?port=/dev/ttyACM0")
+                    .delay(500)
+                    .setBody(constant("alp://ppp/D13/0"))
                     .to("ardulink:serial?port=/dev/ttyACM0");
             }
         });
 
         context.start();
-        Thread.sleep(Long.MAX_VALUE);
+        Thread.currentThread().join();
         context.stop();
     }
 }
