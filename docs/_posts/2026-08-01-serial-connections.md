@@ -29,20 +29,20 @@ Serial over USB is the most common way to connect Arduino boards. Ardulink-2 pro
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-core-base</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
 </dependency>
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-link-serial-jssc</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
 </dependency>
 ```
 
 ### Gradle
 
 ```groovy
-implementation 'org.ardulink:ardulink-core-base:2.3.0'
-implementation 'org.ardulink:ardulink-link-serial-jssc:2.3.0'
+implementation 'org.ardulink:ardulink-core-base:2.3.1'
+implementation 'org.ardulink:ardulink-link-serial-jssc:2.3.1'
 ```
 
 ## Connecting

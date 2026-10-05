@@ -48,12 +48,12 @@ Create `pom.xml`:
         <dependency>
             <groupId>org.ardulink</groupId>
             <artifactId>ardulink-core-base</artifactId>
-            <version>2.3.0</version>
+            <version>2.3.1</version>
         </dependency>
         <dependency>
             <groupId>org.ardulink</groupId>
             <artifactId>ardulink-link-serial-jssc</artifactId>
-            <version>2.3.0</version>
+            <version>2.3.1</version>
         </dependency>
     </dependencies>
 </project>

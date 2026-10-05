@@ -49,7 +49,7 @@ This starts:
 Connect to your Arduino (or use virtual-console for testing):
 
 ```bash
-java -jar ardulink-mqtt-2.3.0.jar \
+java -jar ardulink-mqtt-2.3.1.jar \
     -connection ardulink://virtual-console
 ```
 
@@ -110,7 +110,7 @@ Add widgets for:
 Replace the virtual-console connection with your real serial port:
 
 ```bash
-java -jar ardulink-mqtt-2.3.0.jar \
+java -jar ardulink-mqtt-2.3.1.jar \
     -connection "ardulink://serial?port=/dev/ttyACM0" \
     -broker "tcp://localhost:1883"
 ```

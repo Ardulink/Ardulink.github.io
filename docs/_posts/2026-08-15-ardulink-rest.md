@@ -31,14 +31,14 @@ The `ardulink-rest` module exposes your Arduino as a REST API, letting you contr
 ### 1. Start the REST Server
 
 ```bash
-java -jar ardulink-rest-2.3.0.jar \
+java -jar ardulink-rest-2.3.1.jar \
     -connection "ardulink://serial?port=/dev/ttyACM0"
 ```
 
 For testing:
 
 ```bash
-java -jar ardulink-rest-2.3.0.jar \
+java -jar ardulink-rest-2.3.1.jar \
     -connection "ardulink://virtual-console"
 ```
 
@@ -98,7 +98,7 @@ For programmatic REST server setup:
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-rest</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
 </dependency>
 ```
 

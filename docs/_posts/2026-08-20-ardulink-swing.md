@@ -26,7 +26,7 @@ The `ardulink-swing` module provides pre-built Java Swing components for buildin
 <dependency>
     <groupId>org.ardulink</groupId>
     <artifactId>ardulink-swing</artifactId>
-    <version>2.3.0</version>
+    <version>2.3.1</version>
 </dependency>
 ```
 
